@@ -1,0 +1,10 @@
+{
+
+  authDomain: "project-539346990892.firebaseapp.com",
+  storageBucket: "bucket.appspot.com",
+  appId: '1:539346990892:android:5637a9f2dcabff64021e89',
+  apiKey: 'AIzaSyCUE2MzQcL4gnp9ylaXevV5xBhaG50KY2M',
+  messagingSenderId: '539346990892',
+  projectId: 'project-539346990892',
+  databaseURL: 'https://at-la-git.firebaseio.com'
+}

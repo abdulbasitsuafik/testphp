@@ -1,0 +1,32 @@
+{
+  "name": "tolga/atlagit",
+  "description": "atlagit",
+  "keywords": [
+    "atlagit"
+  ],
+  "homepage": "https://atlagit.tech",
+  "license": "MIT",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Tolga EGE",
+      "email": "toolgaege@gmail.com",
+      "homepage": "http://tolgaege.com"
+    }
+  ],
+  "require": {
+    "twig/twig": "^1.0",
+    "doctrine/orm": "^2.8",
+    "symfony/yaml": "2.*",
+    "ext-ftp": "*",
+    "phpmailer/phpmailer": "~6.0",
+    "google/protobuf": "^v3.3.0",
+    "grpc/grpc": "^v1.27.0",
+    "doctrine/annotations": "^1.11",
+    "kreait/firebase-php": "^4.17.0",
+    "admitad/api": "dev-master"
+  },
+  "autoload": {
+    "psr-0": {"": "src/"}
+  }
+}

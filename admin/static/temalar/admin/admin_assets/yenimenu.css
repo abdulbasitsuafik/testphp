@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700');
+
+.page-sidebar {
+    background: #2d2d2d!important;
+}
+.bayro_menu {
+    font-family: verdana;
+    font-size: 12px;
+    font-weight: 200;
+    background-color: #2d2d2d;
+    float: left;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    padding-top: 10px;
+    
+}
+
+
+.bayro_menu .brand {
+    background-color: #23282e;
+    line-height: 50px;
+    display: block;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+.bayro_menu .toggle-btn {
+    display: none;
+}
+
+
+.bayro_menu ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    line-height: 35px;
+    cursor: pointer;
+    background-color: #2d2d2d;
+}
+
+.bayro_menu ul ul{
+    background: #181c20!important;
+    padding-left: 0px!important;
+}
+
+
+.bayro_menu ul .altmenu{
+    float: left;
+    width: 100%;
+    height: auto;
+    padding-left: 0px;
+    background-color: #181c20;
+    border: none;
+    line-height: 28px;
+    border-bottom: 1px solid #23282e;
+}
+
+.bayro_menu ul .altmenu li {
+    background-color:transparent!important;
+    border-bottom:none!important;
+}
+
+
+.bayro_menu ul .altmenu ul{
+    float: left;
+    width: 100%;
+    height: auto;
+    padding-left: 0px!important;
+    background-color: #181c20;
+    border: none;
+    line-height: 28px;
+    border-bottom: 1px solid #23282e;
+}
+
+
+.bayro_menu ul .altmenu ul li {
+    background-color:#333333!important;
+    border-bottom:1px solid #404040!important;
+    padding-left: 24px!important;
+    display: inline-flex;
+}
+
+.bayro_menu ul .altmenu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 12px!important;
+    width:100%;
+    display:inline-block;
+    
+}
+
+
+.bayro_menu li {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    line-height:40px;
+    cursor: pointer;
+    background-color: #2d2d2d;
+}
+
+.bayro_menu ul :not(collapsed) .arrow:before,
+.bayro_menu li :not(collapsed) .arrow:before {
+    font-family: FontAwesome;
+    content: "\f078";
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    vertical-align: middle;
+    float: right;
+}
+
+.bayro_menu ul .active,
+.bayro_menu li .active {
+    border-left: 3px solid #d19b3d;
+}
+
+.bayro_menu ul .menu_liste li.active,
+.bayro_menu li .menu_liste li.active {
+    color: #d19b3d;
+}
+
+.bayro_menu ul .menu_liste li.active a,
+.bayro_menu li .menu_liste li.active a {
+    color: #d19b3d;
+}
+
+.bayro_menu li .menu_liste li {
+    background-color: #181c20;
+
+}
+
+.bayro_menu ul .menu_liste li {
+    background-color: #1f1f1f;
+    border: none;
+    line-height: 28px;
+    border-bottom: 1px solid #2d2d2d;
+    padding-left:10px;
+}
+
+.bayro_menu ul .menu_liste li a{
+    font-size: 13px;
+    width:auto;
+    display:block;
+    background: none!important;
+    padding-left: 40px;
+}
+
+
+.bayro_menu ul .menu_liste li:hover,
+.bayro_menu li .menu_liste li:hover {
+    background-color: #020203;
+}
+
+.bayro_menu ul .menu_liste li:before,
+.bayro_menu li .menu_liste li:before {
+    font-family: FontAwesome;
+    content: "\f105";
+    display: inline-block;
+    padding-left: 17px;
+    padding-right: 10px;
+    vertical-align: middle;
+    position: absolute;
+}
+
+.bayro_menu li {
+    float: left;
+    width: 100%;
+    padding-left: 0px;
+    border-left: 3px solid #2d2d2d;
+    border-bottom: 1px solid #3e3e3e;
+}
+
+
+.bayro_menu li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.62);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    width:100%;
+    display:inline-block;
+    background-color: #2d2d2d;
+}
+
+.bayro_menu li a i {
+    padding-left: 10px;
+    width: 20px;
+    padding-right: 22px;
+    line-height: 40px!important;
+}
+
+.bayro_menu li:hover {
+    border-left: 3px solid #d19b3d;
+   background-color: #383838;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+@media (max-width: 767px) {
+.bayro_menu {
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.bayro_menu .toggle-btn {
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 10 !important;
+    padding: 3px;
+   // background-color: #ffffff;
+    color: #000;
+    width: 40px;
+    text-align: center;
+}
+
+.brand {
+    text-align: left !important;
+    font-size: 22px;
+    padding-left: 20px;
+    line-height: 50px !important;
+}
+
+}
+
+@media (min-width: 767px) {
+    .bayro_menu .menu-list .menu-content {
+    display: block;
+}
+}
